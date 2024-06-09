@@ -4,11 +4,11 @@
 }
 
 ul {
-  list-style: url("images/icon.png") disc inside;
-  background-color: purple;
+  list-style: square url(./images/icon.png) inside ;
+  
 }
 
-ul li {
+ ul li {
   border: 1px solid black;
   padding: 20px;
 }
@@ -21,4 +21,4 @@ ol {
 ol li {
   border: 1px solid black;
   padding: 20px;
-}
+} 
