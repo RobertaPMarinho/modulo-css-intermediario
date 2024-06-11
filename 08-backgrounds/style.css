@@ -1,0 +1,38 @@
+p {
+  color: coral;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.bg {
+  background-color: lightgreen;
+  background-image: url(./images/shitzu.png);
+}
+
+.bg-image {
+  width: 360px;
+  height: 492px;
+}
+
+.bg-repeat {
+  background-repeat: no-repeat;
+  height: 592px;
+}
+
+.bg-size-cover {
+  background-size: cover;
+  height: 592px;
+}
+
+.bg-fixed {
+  background-size: fixed;
+  height: 592px;
+}
+
+.bg-position {
+  /* background-position: bottom right;
+  background-repeat: no-repeat; */
+  background: #000 url(./images/shitzu.png) no-repeat right top;
+  height: 592px;;
+}
+
