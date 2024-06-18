@@ -23,9 +23,10 @@ body {
 main {
   background-color: white;
   padding: 30px;
-  /* min-width: 320px;
+  /* width: 900px; */
+  margin: 0 auto;
+  min-width: 320px;
   max-width: 900px;
-  margin: 0 auto; */
 }
 
 main .info {
@@ -34,4 +35,8 @@ main .info {
 
 main p {
   font-size: 16px;
+}
+
+.image img {
+  width: 100%;
 }
